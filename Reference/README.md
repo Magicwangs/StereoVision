@@ -1,4 +1,4 @@
-Toc：
+**TABLE OF CONTENTS**
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 	- [Stereo Vision: Algorithms and Applications](#stereo-vision-algorithms-and-applications)
@@ -22,7 +22,7 @@ Epipolar constraint：对极约束
 标准模式下（两摄像头平行）：		
 disparity = Xr-Xt 差异：距离相机越进的点，disparity越大		
 range field（Horopter）两眼视界，disparity range[dmin,dmax]		
-![](https://latex.codecogs.com/gif.latex?z=\frac{b*f}{d})
+![](https://latex.codecogs.com/gif.latex?z=\\frac{b*f}{d})
 
 
 
