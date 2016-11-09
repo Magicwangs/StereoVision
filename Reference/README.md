@@ -19,7 +19,7 @@
 ### Introduction
 binocular stereo vision systems:双目立体视觉系统    	
 dense stereo algorithms：密度立体算法		
-stereo vision applications：立体视觉应用		
+stereo vision applications：立体视觉应用  
 Epipolar constraint：对极约束		
 标准模式下（两摄像头平行）：		
 disparity = Xr-Xt 视差：距离相机越近的点，disparity越大		
