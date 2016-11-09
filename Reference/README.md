@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 **TABLE OF CONTENTS**		
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -25,6 +26,7 @@ Epipolar constraint：对极约束
 disparity = Xr-Xt 视差：距离相机越近的点，disparity越大  
 range field（Horopter）两眼视界，disparity range[dmin,dmax]  
 ![](http://www.forkosh.com/mathtex.cgi?z=\frac{b*f}{d})
+$$\Large x=\frac{b*f}{d}$$  
 
 ### Overview
 概述步骤：				
