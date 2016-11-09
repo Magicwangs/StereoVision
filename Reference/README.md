@@ -26,9 +26,9 @@ Epipolar constraint：对极约束
 disparity = Xr-Xt 视差：距离相机越近的点，disparity越大  
 range field（Horopter）两眼视界，disparity range[dmin,dmax]  
 
-![](http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+![](http://chart.googleapis.com/chart?cht=tx&chl=x=\frac{b*f}{d})
 
-$$\x=\frac{b*f}{d}$$  
+$$x=\frac{b*f}{d}$$  
 
 ### Overview
 概述步骤：				
