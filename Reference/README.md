@@ -9,7 +9,6 @@
 		- [Computational optimizations](#computational-optimizations)
 		- [Hardware implementation](#hardware-implementation)
 		- [Applications](#applications)
-	- [Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches](#stereo-matching-by-training-a-convolutional-neural-network-to-compare-image-patches)
 	- [A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation](#a-large-dataset-to-train-convolutional-networks-for-disparity-optical-flow-and-scene-flow-estimation)
 
 <!-- /TOC -->
@@ -42,16 +41,3 @@ Triangulation三角测量：(x,y)->(x,y,z),z=b*f/d
 硬件实现
 ### Applications
 应用
-
-## Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches
-通过训练比较图像补丁的卷积神经网络来立体视觉匹配
-
-作者：姚鹏
-链接：https://www.zhihu.com/question/37796523/answer/92309937
-来源：知乎
-著作权归作者所有，转载请联系作者获得授权。
-
-立体匹配(Stereo Matching)算法主要分为全局(global)和局部(local)算法，其中全局算法步骤是：匹配代价计算(matching cost computation)，视差计算(disparity computation)和视差精化(disparity refinement)；局部算法步骤是：匹配代价计算(matching cost computation)，代价聚合(cost aggregation)，视差计算(disparity computation)和视差精化(disparity refinement)。所有的立体匹配算法只能计算到前2/3步，也就是视差精化之前，得到了初始视差图(initial disparity map)，你会发现它有很多的黑色区域，特别是左视差图的最左边，因为那是遮挡区域(occluded regions)，而立体匹配的算法只能计算出非遮挡区域(non-occluded regions)的视差，所以要将右视差图计算出来并进行左右一致性检查(Left-Regiht Crosscheck)来进行遮挡区域的填充，LeCun的论文虽然是采用了机器学习的方法产生视差图，但是仍然避免不了遮挡区域的处理问题，所以会引入亚像素增强(subpixel enhancement)这个策略(strategy)来进行视差精化(也可以叫后处理-post processing)。
-
-## A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation
-一个大型数据集训练卷积网络 for 差异，光流，现场流估计
