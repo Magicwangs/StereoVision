@@ -15,6 +15,9 @@
 - [变分方法](http://baike.baidu.com/view/11584829.htm)  
 RGBD：RGB+D(Depth)  
 - [图像退化](http://zuoye.baidu.com/question/9ed9842fd9111c2544ebc95e485e2609.html)  
-- []()  
-- []()  
-- []()  
+- [神经光流网络——用卷积网络实现光流预测（FlowNet: Learning Optical Flow with Convolutional Networks）](http://blog.csdn.net/hysteric314/article/details/50529804)  
+- [无痛的机器学习](https://zhuanlan.zhihu.com/hsmyy)  
+- [卷积神经网络参数说明](http://blog.csdn.net/redfivehit/article/details/49889583)  
+一般步长为1，偶尔使用步长为2，不常使用的步长为3
+- [CS231n课程笔记翻译：卷积神经网络笔记](https://zhuanlan.zhihu.com/p/22038289?refer=intelligentunit)  
+- [从头开始实现神经网络](http://chuansong.me/n/1732024)  
