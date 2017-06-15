@@ -1,0 +1,6 @@
+model_checkpoint_path: "stereo.ckpt"
+all_model_checkpoint_paths: "../6/stereo.ckpt"
+all_model_checkpoint_paths: "../7/stereo.ckpt"
+all_model_checkpoint_paths: "../8/stereo.ckpt"
+all_model_checkpoint_paths: "../9/stereo.ckpt"
+all_model_checkpoint_paths: "stereo.ckpt"

@@ -1,0 +1,11 @@
+server_addr: "ittun.com:36415"
+trust_host_root_certs: false
+tunnels:
+	web:
+	   subdomain: "magic"
+	   proto:
+	    http: 172.0.0.1:7000
+	    https: 172.0.0.1:7000
+
+
+
